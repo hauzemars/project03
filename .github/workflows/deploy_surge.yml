@@ -41,5 +41,5 @@ jobs:
         run: npm install -g surge
         
       - name: Deploy to Surge
-        run: surge ./build https://projectboot03.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build https://projectbooty03.surge.sh --token ${{ secrets.SURGE_TOKEN }}
           
